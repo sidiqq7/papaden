@@ -1,0 +1,367 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Papaden Bakmi · Restoran Premium</title>
+    <meta name="description" content="Papaden Bakmi - Restoran bakmi premium dengan cita rasa autentik dan bahan pilihan di Pemalang. Nikmati pengalaman bersantap yang istimewa." />
+    <meta name="keywords" content="bakmi pemalang, restoran premium, papaden bakmi, makanan enak pemalang, bakmi rumahan" />
+    <meta property="og:title" content="Papaden Bakmi · Restoran Premium" />
+    <meta property="og:description" content="Restoran bakmi premium dengan cita rasa autentik dan bahan pilihan di Pemalang." />
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://papadenbakmi.com" />
+    <meta property="og:image" content="https://papadenbakmi.com/assets/logo.png" />
+    <meta name="theme-color" content="#FF7A00" />
+    <link rel="icon" href="assets/logo.png" type="image/png" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,600;0,700;1,400&family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet" />
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" />
+
+    <script type="application/ld+json">
+        {
+            "@context": "https://schema.org",
+            "@type": "Restaurant",
+            "name": "Papaden Bakmi",
+            "image": "https://papadenbakmi.com/assets/logo.png",
+            "address": {
+                "@type": "PostalAddress",
+                "streetAddress": "Jl. Pemuda, RW nomer No.21, Mulyoharjo",
+                "addressLocality": "Pemalang",
+                "addressRegion": "Jawa Tengah",
+                "postalCode": "52313",
+                "addressCountry": "ID"
+            },
+            "priceRange": "$$",
+            "servesCuisine": "Bakmi, Masakan Indonesia"
+        }
+    </script>
+
+    <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+    <div id="loading">
+        <div class="loader-ring"></div>
+        <div class="loader-text">Papaden Bakmi</div>
+    </div>
+
+    <button id="backToTop" aria-label="Kembali ke atas">
+        <i class="fas fa-chevron-up"></i>
+    </button>
+
+    <nav class="navbar" id="navbar">
+        <div class="container">
+            <a href="#" class="logo">
+                <img src="logo.png" alt="Papaden Bakmi" width="44" height="44" />
+                <span>Papaden Bakmi</span>
+            </a>
+            <ul class="nav-links" id="navLinks">
+                <li><a href="#beranda">Beranda</a></li>
+                <li><a href="#menu">Menu</a></li>
+                <li><a href="#tentang">Tentang</a></li>
+                <li><a href="#galeri">Galeri</a></li>
+                <li><a href="#kontak">Kontak</a></li>
+            </ul>
+            <button class="hamburger" id="hamburger" aria-label="Menu">
+                <span></span><span></span><span></span>
+            </button>
+        </div>
+    </nav>
+
+    <section class="hero" id="beranda">
+        <div class="container">
+            <div class="hero-grid">
+                <div class="hero-content reveal-left">
+                    <span class="badge">✦ Premium</span>
+                    <h1>Bakmi Rumahan dengan Rasa Premium</h1>
+                    <p class="subheadline">Dibuat dari bahan pilihan dengan cita rasa autentik yang membuat setiap suapan menjadi pengalaman istimewa.</p>
+                    <div class="hero-buttons">
+                        <a href="#menu" class="btn-primary"><i class="fas fa-utensils"></i> Lihat Menu</a>
+                    </div>
+                </div>
+                <div class="hero-image reveal-right">
+                    <div class="hero-img-wrapper">
+                        <img src="bakmiklasik.jpg" alt="Bakmi Klasik Papaden" loading="lazy" />
+                        <div class="floating-blob"></div>
+                        <div class="floating-blob-2"></div>
+                    </div>
+                    <div class="hero-pattern"></div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="tentang" id="tentang">
+        <div class="container">
+            <div class="tentang-grid">
+                <div class="tentang-image reveal-left">
+                    <img src="pajangan1.jpg" alt="Suasana restoran Papaden Bakmi" loading="lazy" />
+                    <div class="tentang-badge">Est. 2025</div>
+                </div>
+                <div class="tentang-content reveal-right">
+                    <span class="section-tag">Tentang Kami</span>
+                    <h2>Tentang Papaden Bakmi</h2>
+                    <p>Papaden Bakmi lahir dari kecintaan terhadap cita rasa bakmi rumahan yang autentik. Kami believe bahwa setiap mangkuk bakmi harus membawa kebahagiaan — dibuat dengan resep turun-temurun, bahan segar, dan sentuhan penuh cinta.</p>
+                    <p>Setiap suapan adalah perjalanan rasa yang menggugah, menghadirkan kehangatan rumah dalam setiap gigitan. Dari dapur kami ke meja Anda, kami hadir untuk membuat momen makan Anda istimewa.</p>
+                    <div class="tentang-icons">
+                        <div><i class="fas fa-seedling"></i> Bahan Segar</div>
+                        <div><i class="fas fa-heart"></i> Tanpa Pengawet</div>
+                        <div><i class="fas fa-clock"></i> Dibuat Saat Dipesan</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="menu" id="menu">
+        <div class="container">
+            <div class="section-header reveal">
+                <span class="section-tag">Menu Pilihan</span>
+                <h2>Nikmati Kelezatan Kami</h2>
+                <p>Setiap hidangan dibuat dengan bahan pilihan dan cita rasa yang tak terlupakan.</p>
+            </div>
+        </div>
+    </section>
+
+    <main>
+        <section id="menu-bakmi" class="menu-section">
+            <div class="container">
+                <div class="section-header">
+                    <h2 class="section-title">Menu <span class="orange">Bakmi</span></h2>
+                    <div class="divider-line"></div>
+                </div>
+                <div class="menu-grid" id="menuBakmi"></div>
+                <div class="menu-note">
+                    <strong>Pilihan Rasa Mie:</strong> Asin · Yamin · Chili Oil <small>(+2K)</small>
+                    <br />Hanya varian <strong>Chili Oil</strong> yang dikenakan biaya tambahan Rp2.000.
+                </div>
+            </div>
+        </section>
+
+        <section id="menu-spesial" class="menu-section">
+            <div class="container">
+                <div class="section-header">
+                    <h2 class="section-title">Bakmi <span class="orange">Spesial</span></h2>
+                    <div class="divider-line"></div>
+                </div>
+                <div class="menu-grid" id="menuSpesial"></div>
+            </div>
+        </section>
+
+        <section id="menu-nasi" class="menu-section">
+            <div class="container">
+                <div class="section-header">
+                    <h2 class="section-title">Nasi <span class="orange">Gurih</span></h2>
+                    <div class="divider-line"></div>
+                </div>
+                <div class="menu-grid" id="menuNasi"></div>
+            </div>
+        </section>
+
+        <section id="menu-perlengkapan" class="menu-section">
+            <div class="container">
+                <div class="section-header">
+                    <h2 class="section-title">Perlengkapan</h2>
+                    <div class="divider-line"></div>
+                </div>
+                <div class="menu-grid" id="menuPerlengkapan"></div>
+            </div>
+        </section>
+
+        <section id="menu-penutup" class="menu-section">
+            <div class="container">
+                <div class="section-header">
+                    <h2 class="section-title">Penutup</h2>
+                    <div class="divider-line"></div>
+                </div>
+                <div class="menu-grid" id="menuPenutup"></div>
+            </div>
+        </section>
+    </main>
+
+    <section class="galeri" id="galeri">
+        <div class="container">
+            <div class="section-header reveal">
+                <span class="section-tag">Galeri</span>
+                <h2>Suasana Restoran</h2>
+                <p>Nikmati pengalaman visual dari setiap sudut Papaden Bakmi.</p>
+            </div>
+            <div class="galeri-grid">
+                <div class="galeri-item reveal-zoom" data-image="pajangan1.jpg">
+                    <img src="pajangan1.jpg" alt="Suasana Papaden Bakmi 1" loading="lazy" />
+                </div>
+                <div class="galeri-item reveal-zoom" data-image="pajangan2.jpg">
+                    <img src="pajangan2.jpg" alt="Suasana Papaden Bakmi 2" loading="lazy" />
+                </div>
+                <div class="galeri-item reveal-zoom" data-image="pajangan3.jpg">
+                    <img src="pajangan3.jpg" alt="Suasana Papaden Bakmi 3" loading="lazy" />
+                </div>
+            </div>
+        </div>
+
+        <div class="lightbox" id="lightbox">
+            <button class="lightbox-close" id="lightboxClose">×</button>
+            <img src="" alt="Galeri" id="lightboxImg" />
+        </div>
+    </section>
+
+    <section class="keunggulan" id="keunggulan">
+        <div class="container">
+            <div class="section-header reveal">
+                <span class="section-tag">Keunggulan</span>
+                <h2>Kenapa Memilih Kami</h2>
+            </div>
+            <div class="keunggulan-grid">
+                <div class="keunggulan-card reveal">
+                    <div class="keunggulan-icon"><i class="fas fa-leaf"></i></div>
+                    <h3>Bahan Segar</h3>
+                    <p>Kami hanya menggunakan bahan-bahan segar berkualitas tinggi dari petani lokal.</p>
+                </div>
+                <div class="keunggulan-card reveal">
+                    <div class="keunggulan-icon"><i class="fas fa-ban"></i></div>
+                    <h3>Tanpa Pengawet</h3>
+                    <p>Semua hidangan bebas dari pengawet dan bahan kimia berbahaya.</p>
+                </div>
+                <div class="keunggulan-card reveal">
+                    <div class="keunggulan-icon"><i class="fas fa-fire"></i></div>
+                    <h3>Dibuat Saat Dipesan</h3>
+                    <p>Setiap pesanan dimasak langsung untuk memastikan kesegaran dan cita rasa.</p>
+                </div>
+                <div class="keunggulan-card reveal">
+                    <div class="keunggulan-icon"><i class="fas fa-tag"></i></div>
+                    <h3>Harga Terjangkau</h3>
+                    <p>Nikmati cita rasa premium dengan harga yang ramah di kantong.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="testimoni" id="testimoni">
+        <div class="container">
+            <div class="section-header reveal">
+                <span class="section-tag">Testimoni</span>
+                <h2>Apa Kata Mereka</h2>
+            </div>
+            <div class="testimoni-slider" id="testimoniSlider">
+                <div class="testimoni-track" id="testimoniTrack">
+                    <div class="testimoni-item">
+                        <div class="testimoni-avatar"><img src="https://i.pravatar.cc/100?img=1" alt="Andi" /></div>
+                        <div class="testimoni-stars"><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i></div>
+                        <p>"Bakmi klasiknya luar biasa! Rasanya autentik dan bahan-bahannya segar. Saya jadi pelanggan tetap."</p>
+                        <h4>Andi S.</h4>
+                        <span>Penggemar Bakmi</span>
+                    </div>
+                    <div class="testimoni-item">
+                        <div class="testimoni-avatar"><img src="https://i.pravatar.cc/100?img=5" alt="Siti" /></div>
+                        <div class="testimoni-stars"><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i></div>
+                        <p>"Wonton kuahnya paling enak! Kuahnya gurih dan wontonnya kenyal. Cocok untuk santap siang."</p>
+                        <h4>Siti R.</h4>
+                        <span>Food Enthusiast</span>
+                    </div>
+                    <div class="testimoni-item">
+                        <div class="testimoni-avatar"><img src="https://i.pravatar.cc/100?img=10" alt="Budi" /></div>
+                        <div class="testimoni-stars"><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i></div>
+                        <p>"Pelayanan ramah, tempat bersih, dan makanannya enak! Papaden Bakmi jadi favorit keluarga."</p>
+                        <h4>Budi P.</h4>
+                        <span>Keluarga Bahagia</span>
+                    </div>
+                    <div class="testimoni-item">
+                        <div class="testimoni-avatar"><img src="https://i.pravatar.cc/100?img=20" alt="Dewi" /></div>
+                        <div class="testimoni-stars"><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i></div>
+                        <p>"Ayam Charisu adalah favorit saya! Bumbu meresap sempurna dan dagingnya empuk."</p>
+                        <h4>Dewi L.</h4>
+                        <span>Pecinta Ayam</span>
+                    </div>
+                    <div class="testimoni-item">
+                        <div class="testimoni-avatar"><img src="https://i.pravatar.cc/100?img=25" alt="Rizky" /></div>
+                        <div class="testimoni-stars"><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i></div>
+                        <p>"Roti dinginnya unik! Cocok sebagai pencuci mulut setelah menikmati bakmi panas."</p>
+                        <h4>Rizky F.</h4>
+                        <span>Kuliner Sejati</span>
+                    </div>
+                </div>
+            </div>
+            <div class="testimoni-dots" id="testimoniDots"></div>
+        </div>
+    </section>
+
+    <section class="cta" id="pesan">
+        <div class="container">
+            <div class="cta-box reveal">
+                <h2>Sudah Siap Menikmati Bakmi Favoritmu?</h2>
+                <p>Pesan sekarang dan rasakan kelezatan bakmi premium yang dibuat dengan cinta.</p>
+            </div>
+        </div>
+    </section>
+
+    <section class="kontak" id="kontak">
+        <div class="container">
+            <div class="section-header reveal">
+                <span class="section-tag">Kontak</span>
+                <h2>Hubungi Kami</h2>
+            </div>
+            <div class="kontak-grid">
+                <div class="kontak-info reveal-left">
+                    <div class="kontak-item"><i class="fas fa-map-marker-alt"></i>Jl. Pemuda, RW nomer No.21, Mulyoharjo, Kec. Pemalang, Kabupaten Pemalang, Jawa Tengah 52313</div>
+                    <div class="kontak-item"><i class="fas fa-phone-alt"></i> +62 812-3456-7890</div>
+                    <div class="kontak-item"><i class="fas fa-envelope"></i> halo@papadenbakmi.com</div>
+                    <div class="kontak-item"><i class="fas fa-clock"></i> Setiap Hari · 10:00 – 22:00</div>
+                    <div class="kontak-sosial">
+                        <a href="https://www.instagram.com/papaden.bakmi?igsh=MnZyaXFrNnRldmds"><i class="fab fa-instagram"></i></a>
+                        <a href="https://www.tiktok.com/@bakmi.papaden?_r=1&_t=ZS-97hXjJxfy1U"><i class="fab fa-tiktok"></i></a>
+                    </div>
+                </div>
+                <div class="kontak-map reveal-right">
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3961.1272027206124!2d109.3828989!3d-6.8753889!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e6fc546b3e9a59b%3A0x6e9f193cb95bf2e4!2sJl.%20Pemuda%20No.21%2C%20Mulyoharjo%2C%20Kec.%20Pemalang%2C%20Kabupaten%20Pemalang%2C%20Jawa%20Tengah%2052313!5e0!3m2!1sid!2sid!4v1710000000000!5m2!1sid!2sid" width="100%" height="320" style="border:0; border-radius: 16px;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-grid">
+                <div class="footer-brand">
+                    <img src="logo.png" alt="Papaden Bakmi" width="44" height="44" />
+                    <span>Papaden Bakmi</span>
+                    <p>Restoran premium dengan cita rasa autentik dan bahan pilihan.</p>
+                </div>
+                <div class="footer-links">
+                    <h4>Menu</h4>
+                    <ul>
+                        <li><a href="#menu">Bakmi Klasik</a></li>
+                        <li><a href="#menu">Wonton Kuah</a></li>
+                        <li><a href="#menu">Roti Dingin</a></li>
+                        <li><a href="#menu">Koutie</a></li>
+                        <li><a href="#menu">Ayam Charisu</a></li>
+                    </ul>
+                </div>
+                <div class="footer-links">
+                    <h4>Informasi</h4>
+                    <ul>
+                        <li><a href="#tentang">Tentang</a></li>
+                        <li><a href="#galeri">Galeri</a></li>
+                        <li><a href="#kontak">Kontak</a></li>
+                        <li><a href="#pesan">Pesan</a></li>
+                    </ul>
+                </div>
+                <div class="footer-links">
+                    <h4>Ikuti Kami</h4>
+                    <div class="footer-sosial">
+                        <a href="https://www.instagram.com/papaden.bakmi?igsh=MnZyaXFrNnRldmds"><i class="fab fa-instagram"></i></a>
+                        <a href="https://www.tiktok.com/@bakmi.papaden?_r=1&_t=ZS-97hXjJxfy1U"><i class="fab fa-tiktok"></i></a>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>© 2026 Papaden Bakmi. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
